@@ -73,7 +73,7 @@ export function HomePage() {
             </div>
             <div className="relative h-[600px]">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1720073806368-56449d85b903?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzeWRuZXklMjBoYXJib3VyJTIwYnJpZGdlJTIwYXJjaGl0ZWN0dXJlJTIwc2t5bGluZXxlbnwxfHx8fDE3NzM3NDUwMDR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://i.imgur.com/8ZLYgkZ.jpeg"
                 alt="Sydney Harbour Bridge at night"
                 className="w-full h-full object-cover"
               />

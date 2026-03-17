@@ -146,10 +146,10 @@ export function ContactPage() {
                   <div>
                     <h3 style={{ fontFamily: 'var(--font-display)' }} className="text-xl text-[#0B1F33] mb-3">Email</h3>
                     <a
-                      href="mailto:admin@stonebridgeprimecapital.com"
+                      href="mailto:info@stonebridgeprimecapital.com.au"
                       className="text-gray-700 hover:text-[#C8A96A] transition-colors text-lg"
                     >
-                      admin@stonebridgeprimecapital.com
+                      info@stonebridgeprimecapital.com.au
                     </a>
                   </div>
                 </div>

@@ -52,7 +52,7 @@ export function AboutPage() {
             </div>
             <div className="relative h-[600px]">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1622006642275-6266a6e8c013?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob25nJTIwa29uZyUyMGNiZCUyMHNreXNjcmFwZXJzJTIwbmlnaHR8ZW58MXx8fHwxNzczNzQ1MDQxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://i.imgur.com/RnNSyEt.jpeg"
                 alt="Hong Kong Victoria Harbour night skyline"
                 className="w-full h-full object-cover"
               />
