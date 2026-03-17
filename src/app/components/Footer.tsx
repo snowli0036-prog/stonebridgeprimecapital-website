@@ -57,10 +57,10 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-semibold tracking-wider mb-6 text-[#C8A96A]">CONTACT</h3>
             <a
-              href="mailto:admin@stonebridgeprimecapital.com"
+              href="mailto:info@stonebridgeprimecapital.com.au"
               className="text-sm text-gray-300 hover:text-white transition-colors"
             >
-              admin@stonebridgeprimecapital.com
+              info@stonebridgeprimecapital.com.au
             </a>
             <div className="mt-6">
               <a
