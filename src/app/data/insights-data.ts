@@ -23,7 +23,7 @@ export const insightsData: InsightArticle[] = [
     date: 'March 2026',
     category: 'Market Insights',
     excerpt: 'Analysis of international capital flows into Australian property markets and emerging opportunities for cross-border investors.',
-    image: 'https://images.unsplash.com/photo-1767259120005-824fbc2f044f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzeWRuZXklMjBoYXJib3VyJTIwbHV4dXJ5JTIwd2F0ZXJmcm9udCUyMHByb3BlcnR5fGVufDF8fHx8MTc3MzQ4ODgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'https://i.imgur.com/pKtIIn0.jpeg',
     content: {
       introduction: 'The Australian real estate market continues to attract significant international capital despite global economic uncertainties. Cross-border investment flows into Australian property have demonstrated remarkable resilience, driven by the country\'s stable political environment, transparent legal framework, and strong property rights protections.',
       sections: [
