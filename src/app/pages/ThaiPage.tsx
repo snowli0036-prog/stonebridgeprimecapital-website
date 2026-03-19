@@ -2,7 +2,7 @@ import { Link } from 'react-router';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { Building2, Globe2, Scale, TrendingUp } from 'lucide-react';
 
-export function ChinaPage() {
+export function ThaiPage() {
   return (
     <div className="bg-[#D6D8DB] pt-20">
       {/* Hero Section */}
@@ -21,7 +21,7 @@ export function ChinaPage() {
             style={{ fontFamily: 'var(--font-display)' }}
             className="text-5xl md:text-6xl text-white mb-6 leading-tight"
           >
-            斯通博智资本
+            สโตนบริดจ์ ไพรม์ แคปปิตอล
           </h1>
           <p
             style={{ fontFamily: 'var(--font-display)' }}
@@ -30,10 +30,10 @@ export function ChinaPage() {
             Stonebridge Prime Capital Advisory Limited
           </p>
           <p className="text-xl md:text-2xl text-[#C8A96A] max-w-3xl leading-relaxed mb-4">
-            澳洲持牌贷款顾问｜香港跨境资本策略｜法律事务协作
+            ที่ปรึกษาสินเชื่อออสเตรเลีย | กลยุทธ์เงินทุนข้ามพรมแดนฮ่องกง | บริการให้คำปรึกษาทางกฎหมาย
           </p>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl leading-relaxed">
-            专注资产配置、商业住宅贷款、跨境客户方案、财富规划
+            เชี่ยวชาญด้านการจัดสรรสินทรัพย์ สินเชื่อพาณิชย์และที่อยู่อาศัย โซลูชั่นลูกค้าข้ามพรมแดน การวางแผนความมั่งคั่ง
           </p>
         </div>
       </section>
@@ -45,17 +45,17 @@ export function ChinaPage() {
             style={{ fontFamily: 'var(--font-display)' }}
             className="text-4xl md:text-5xl text-[#0B1F33] mb-12 text-center"
           >
-            关于我们
+            เกี่ยวกับเรา
           </h2>
           <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
             <p>
-              斯通博智资本是一家专注于跨境资本配置与融资顾问服务的专业机构。
+              สโตนบริดจ์ ไพรม์ แคปปิตอล เป็นสถาบันมืออาชีพที่เชี่ยวชาญด้านการจัดสรรเงินทุนข้ามพรมแดนและบริการที่ปรึกษาด้านการเงิน
             </p>
             <p>
-              公司立足澳大利亚与香港两大国际金融市场，为全球投资者及企业客户提供贷款顾问、跨境资本策略及法律事务协作等专业服务。
+              บริษัทตั้งอยู่ในตลาดการเงินระหว่างประเทศสองแห่งหลักคือออสเตรเลียและฮ่องกง ให้บริการที่ปรึกษาด้านสินเชื่อ กลยุทธ์เงินทุนข้ามพรมแดน และความร่วมมือด้านกฎหมายแก่นักลงทุนและลูกค้าองค์กรทั่วโลก
             </p>
             <p>
-              我们专注于住宅及商业贷款融资、跨境客户综合解决方案及财富规划，通过整合金融机构与专业服务资源，为客户提供稳健、高效且值得信赖的资本顾问支持。
+              เรามุ่งเน้นไปที่การจัดหาเงินกู้ที่อยู่อาศัยและพาณิชยกรรม โซลูชั่นครบวงจรสำหรับลูกค้าข้ามพรมแดน และการวางแผนความมั่งคั่ง โดยบูรณาการทรัพยากรสถาบันการเงินและบริการมืออาชีพ เพื่อมอบการสนับสนุนที่ปรึกษาด้านเงินทุนที่มั่นคง มีประสิทธิภาพ และน่าเชื่อถือแก่ลูกค้า
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ export function ChinaPage() {
             style={{ fontFamily: 'var(--font-display)' }}
             className="text-4xl md:text-5xl text-[#0B1F33] mb-20 text-center"
           >
-            核心服务
+            บริการหลัก
           </h2>
           <div className="grid md:grid-cols-2 gap-16">
             {/* Lending Advisory */}
@@ -82,19 +82,19 @@ export function ChinaPage() {
                     style={{ fontFamily: 'var(--font-display)' }}
                     className="text-2xl md:text-3xl text-[#0B1F33] mb-4"
                   >
-                    贷款顾问服务
+                    บริการที่ปรึกษาสินเชื่อ
                   </h3>
                   <p className="text-sm text-[#C8A96A] mb-4 tracking-wider">LENDING ADVISORY</p>
                 </div>
               </div>
               <p className="text-base text-gray-700 leading-relaxed mb-6">
-                为住宅及商业物业提供全方位融资解决方案。我们的持牌贷款顾问团队深谙澳洲金融市场，为客户匹配最优贷款产品。
+                ให้บริการโซลูชั่นการจัดหาเงินทุนแบบครบวงจรสำหรับอสังหาริมทรัพย์ที่อยู่อาศัยและพาณิชยกรรม ทีมที่ปรึกษาสินเชื่อที่ได้รับใบอนุญาตของเรามีความเชี่ยวชาญในตลาดการเงินออสเตรเลีย เพื่อจับคู่ผลิตภัณฑ์สินเชื่อที่ดีที่สุดให้กับลูกค้า
               </p>
               <ul className="space-y-3 text-base text-gray-600">
-                <li>• 住宅物业融资</li>
-                <li>• 商业地产贷款</li>
-                <li>• 投资物业融资</li>
-                <li>• 再融资方案</li>
+                <li>• การจัดหาเงินทุนอสังหาริมทรัพย์ที่อยู่อาศัย</li>
+                <li>• สินเชื่ออสังหาริมทรัพย์เชิงพาณิชย์</li>
+                <li>• การจัดหาเงินทุนอสังหาริมทรัพย์เพื่อการลงทุน</li>
+                <li>• โซลูชั่นการรีไฟแนนซ์</li>
               </ul>
             </div>
 
@@ -109,19 +109,19 @@ export function ChinaPage() {
                     style={{ fontFamily: 'var(--font-display)' }}
                     className="text-2xl md:text-3xl text-[#0B1F33] mb-4"
                   >
-                    资本策略顾问
+                    ที่ปรึกษากลยุทธ์เงินทุน
                   </h3>
                   <p className="text-sm text-[#C8A96A] mb-4 tracking-wider">CAPITAL ADVISORY</p>
                 </div>
               </div>
               <p className="text-base text-gray-700 leading-relaxed mb-6">
-                提供企业融资、资本结构优化及财富管理策略，助力客户实现长期财务目标。
+                ให้บริการด้านการจัดหาเงินทุนองค์กร การเพิ่มประสิทธิภาพโครงสร้างเงินทุน และกลยุทธ์การบริหารความมั่งคั่ง เพื่อช่วยให้ลูกค้าบรรลุเป้าหมายทางการเงินระยะยาว
               </p>
               <ul className="space-y-3 text-base text-gray-600">
-                <li>• 企业融资方案</li>
-                <li>• 资本结构规划</li>
-                <li>• 财富配置策略</li>
-                <li>• 投资组合管理</li>
+                <li>• โซลูชั่นการจัดหาเงินทุนองค์กร</li>
+                <li>• การวางแผนโครงสร้างเงินทุน</li>
+                <li>• กลยุทธ์การจัดสรรความมั่งคั่ง</li>
+                <li>• การจัดการพอร์ตการลงทุน</li>
               </ul>
             </div>
 
@@ -136,19 +136,19 @@ export function ChinaPage() {
                     style={{ fontFamily: 'var(--font-display)' }}
                     className="text-2xl md:text-3xl text-[#0B1F33] mb-4"
                   >
-                    跨境资本顾问
+                    ที่ปรึกษาเงินทุนข้ามพรมแดน
                   </h3>
                   <p className="text-sm text-[#C8A96A] mb-4 tracking-wider">CROSS-BORDER ADVISORY</p>
                 </div>
               </div>
               <p className="text-base text-gray-700 leading-relaxed mb-6">
-                专为大中华区及亚太地区客户设计的跨境资本配置方案，助力国际投资与资产布局。
+                โซลูชั่นการจัดสรรเงินทุนข้ามพรมแดนที่ออกแบบเฉพาะสำหรับลูกค้าในพื้นที่จีนและเอเชียแปซิฟิก เพื่อส่งเสริมการลงทุนระหว่างประเทศและการจัดสรรสินทรัพย์
               </p>
               <ul className="space-y-3 text-base text-gray-600">
-                <li>• 跨境融资架构</li>
-                <li>• 海外资产配置</li>
-                <li>• 国际税务筹划</li>
-                <li>• 移民投资方案</li>
+                <li>• โครงสร้างการจัดหาเงินทุนข้ามพรมแดน</li>
+                <li>• การจัดสรรสินทรัพย์ต่างประเทศ</li>
+                <li>• การวางแผนภาษีระหว่างประเทศ</li>
+                <li>• โซลูชั่นการลงทุนเพื่อการย้ายถิ่นฐาน</li>
               </ul>
             </div>
 
@@ -163,19 +163,19 @@ export function ChinaPage() {
                     style={{ fontFamily: 'var(--font-display)' }}
                     className="text-2xl md:text-3xl text-[#0B1F33] mb-4"
                   >
-                    法律事务协作
+                    ความร่วมมือด้านกฎหมาย
                   </h3>
                   <p className="text-sm text-[#C8A96A] mb-4 tracking-wider">LEGAL SERVICE CONSULTING</p>
                 </div>
               </div>
               <p className="text-base text-gray-700 leading-relaxed mb-6">
-                整合专业法律资源，为资本交易提供全方位法律支持，确保交易合规与风险可控。
+                บูรณาการทรัพยากรทางกฎหมายมืออาชีพ เพื่อให้การสนับสนุนทางกฎหมายแบบครบวงจรสำหรับธุรกรรมเงินทุน เพื่อให้มั่นใจในการปฏิบัติตามกฎระเบียบและควบคุมความเสี่ยงของธุรกรรม
               </p>
               <ul className="space-y-3 text-base text-gray-600">
-                <li>• 银行与金融法</li>
-                <li>• 商业及住宅地产法</li>
-                <li>• 产权转让法律服务</li>
-                <li>• 交易文件审核</li>
+                <li>• กฎหมายธนาคารและการเงิน</li>
+                <li>• กฎหมายอสังหาริมทรัพย์เชิงพาณิชย์และที่อยู่อาศัย</li>
+                <li>• บริการกฎหมายการโอนกรรมสิทธิ์</li>
+                <li>• การตรวจสอบเอกสารธุรกรรม</li>
               </ul>
             </div>
           </div>
@@ -189,7 +189,7 @@ export function ChinaPage() {
             style={{ fontFamily: 'var(--font-display)' }}
             className="text-4xl md:text-5xl text-[#0B1F33] mb-20 text-center"
           >
-            市场布局
+            การขยายตลาด
           </h2>
           <div className="grid md:grid-cols-2 gap-16">
             <div className="bg-[#CACDD1] p-12">
@@ -197,10 +197,10 @@ export function ChinaPage() {
                 style={{ fontFamily: 'var(--font-display)' }}
                 className="text-3xl text-[#0B1F33] mb-6"
               >
-                澳大利亚
+                ออสเตรเลีย
               </h3>
               <p className="text-base text-gray-700 leading-relaxed mb-6">
-                作为澳洲持牌金融服务机构，我们深耕悉尼CBD核心金融区，为本地及海外客户提供专业的融资顾问服务。
+                ในฐานะสถาบันบริการทางการเงินที่ได้รับใบอนุญาตในออสเตรเลีย เรามีรากฐานที่แข็งแกร่งในเขตการเงินหลักของซิดนีย์ CBD ให้บริการที่ปรึกษาด้านการเงินมืออาชีพแก่ลูกค้าทั้งในประเทศและต่างประเทศ
               </p>
               <p className="text-sm text-[#C8A96A] tracking-wider">
                 Stonebridge Prime Capital Advisory Pty Ltd
@@ -212,10 +212,10 @@ export function ChinaPage() {
                 style={{ fontFamily: 'var(--font-display)' }}
                 className="text-3xl text-[#0B1F33] mb-6"
               >
-                香港
+                ฮ่องกง
               </h3>
               <p className="text-base text-gray-700 leading-relaxed mb-6">
-                立足香港国际金融中心，服务大中华区及亚太地区客户，提供跨境资本配置与财富管理解决方案。
+                ตั้งอยู่ในศูนย์กลางการเงินระหว่างประเทศของฮ่องกง ให้บริการลูกค้าในพื้นที่จีนและเอเชียแปซิฟิก ด้วยโซลูชั่นการจัดสรรเงินทุนข้ามพรมแดนและการบริหารความมั่งคั่ง
               </p>
               <p className="text-sm text-[#C8A96A] tracking-wider">
                 Stonebridge Prime Capital Advisory Limited
@@ -232,23 +232,23 @@ export function ChinaPage() {
             style={{ fontFamily: 'var(--font-display)' }}
             className="text-4xl md:text-5xl text-white mb-8"
           >
-            开启跨境资本配置之旅
+            เริ่มต้นการเดินทางด้านการจัดสรรเงินทุนข้ามพรมแดน
           </h2>
           <p className="text-xl text-gray-300 mb-12 leading-relaxed">
-            我们的专业团队期待与您展开保密咨询，为您量身定制资本解决方案
+            ทีมมืออาชีพของเราพร้อมให้คำปรึกษาแบบเป็นความลับ และออกแบบโซลูชั่นด้านเงินทุนที่เหมาะสมสำหรับคุณ
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link
               to="/contact"
               className="px-10 py-4 bg-[#C8A96A] text-white hover:bg-[#C8A96A]/90 transition-colors text-base tracking-wide"
             >
-              联系我们
+              ติดต่อเรา
             </Link>
             <Link
               to="/services"
               className="px-10 py-4 bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#0B1F33] transition-colors text-base tracking-wide"
             >
-              了解更多服务
+              เรียนรู้เพิ่มเติมเกี่ยวกับบริการ
             </Link>
           </div>
         </div>
@@ -261,10 +261,11 @@ export function ChinaPage() {
             <Link to="/" className="text-[#C8A96A] hover:underline">
               Switch to English
             </Link>
-            {' '}| 中文简体 | {' '}
-            <Link to="/th" className="text-[#C8A96A] hover:underline">
-              ภาษาไทย
+            {' | '}
+            <Link to="/cn" className="text-[#C8A96A] hover:underline">
+              中文简体
             </Link>
+            {' '}| ภาษาไทย
           </p>
         </div>
       </section>

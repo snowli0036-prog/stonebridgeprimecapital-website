@@ -45,6 +45,11 @@ export function Footer() {
               <li className="text-sm text-gray-300">Australia</li>
               <li className="text-sm text-gray-300">Hong Kong</li>
               <li>
+                <Link to="/th" className="text-sm text-gray-300 hover:text-white transition-colors">
+                  Thailand
+                </Link>
+              </li>
+              <li>
                 <Link to="/cn" className="text-sm text-gray-300 hover:text-white transition-colors">
                   Greater China
                 </Link>

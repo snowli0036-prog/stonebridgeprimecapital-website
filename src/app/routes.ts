@@ -8,6 +8,7 @@ import { InsightsPage } from "./pages/InsightsPage";
 import { InsightDetailPage } from "./pages/InsightDetailPage";
 import { ContactPage } from "./pages/ContactPage";
 import { ChinaPage } from "./pages/ChinaPage";
+import { ThaiPage } from "./pages/ThaiPage";
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ export const router = createBrowserRouter([
       { path: "insights/:slug", Component: InsightDetailPage },
       { path: "contact", Component: ContactPage },
       { path: "cn", Component: ChinaPage },
+      { path: "th", Component: ThaiPage },
     ],
   },
 ]);

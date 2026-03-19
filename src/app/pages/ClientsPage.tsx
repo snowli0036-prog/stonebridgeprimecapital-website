@@ -133,7 +133,7 @@ export function ClientsPage() {
           >
             Geographic Focus
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-10">
             <div className="text-center p-10 bg-white border border-gray-200">
               <div className="text-7xl text-[#C8A96A] mb-6">•</div>
               <h3 style={{ fontFamily: 'var(--font-display)' }} className="text-2xl text-[#0B1F33] mb-3">Australia</h3>
@@ -143,6 +143,11 @@ export function ClientsPage() {
               <div className="text-7xl text-[#C8A96A] mb-6">•</div>
               <h3 style={{ fontFamily: 'var(--font-display)' }} className="text-2xl text-[#0B1F33] mb-3">Hong Kong</h3>
               <p className="text-gray-700">Regional office</p>
+            </div>
+            <div className="text-center p-10 bg-white border border-gray-200">
+              <div className="text-7xl text-[#C8A96A] mb-6">•</div>
+              <h3 style={{ fontFamily: 'var(--font-display)' }} className="text-2xl text-[#0B1F33] mb-3">Thailand</h3>
+              <p className="text-gray-700">Key client base</p>
             </div>
             <div className="text-center p-10 bg-white border border-gray-200">
               <div className="text-7xl text-[#C8A96A] mb-6">•</div>

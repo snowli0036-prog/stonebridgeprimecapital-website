@@ -1,9 +1,10 @@
 import { Link, useLocation } from 'react-router';
 import { useState } from 'react';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X, Globe, ChevronDown } from 'lucide-react';
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [languageMenuOpen, setLanguageMenuOpen] = useState(false);
   const location = useLocation();
 
   const isActive = (path: string) => {
@@ -14,6 +15,13 @@ export function Header() {
   };
 
   const isChinese = location.pathname === '/cn';
+  const isThai = location.pathname === '/th';
+  
+  const getCurrentLanguage = () => {
+    if (isChinese) return '中文';
+    if (isThai) return 'ไทย';
+    return 'EN';
+  };
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-[#F8F9FA]/98 backdrop-blur-sm z-50 border-b border-gray-200">
@@ -75,14 +83,41 @@ export function Header() {
               Contact
             </Link>
             {/* Language Switch */}
-            <Link
-              to={isChinese ? '/' : '/cn'}
-              className="flex items-center gap-1.5 text-sm text-[#C8A96A] hover:text-[#0B1F33] transition-colors"
-              title={isChinese ? 'Switch to English' : '中文'}
-            >
-              <Globe className="w-4 h-4" />
-              <span>{isChinese ? 'Switch to English' : '中文'}</span>
-            </Link>
+            <div className="relative">
+              <button
+                className="flex items-center gap-1.5 text-sm text-[#C8A96A] hover:text-[#0B1F33] transition-colors"
+                onClick={() => setLanguageMenuOpen(!languageMenuOpen)}
+              >
+                <Globe className="w-4 h-4" />
+                <span>{getCurrentLanguage()}</span>
+                <ChevronDown className="w-4 h-4" />
+              </button>
+              {languageMenuOpen && (
+                <div className="absolute right-0 mt-2 w-40 bg-white border border-gray-200 shadow-lg z-10">
+                  <Link
+                    to="/"
+                    className="block py-2 px-4 text-gray-600 hover:text-[#0B1F33]"
+                    onClick={() => setLanguageMenuOpen(false)}
+                  >
+                    English
+                  </Link>
+                  <Link
+                    to="/cn"
+                    className="block py-2 px-4 text-gray-600 hover:text-[#0B1F33]"
+                    onClick={() => setLanguageMenuOpen(false)}
+                  >
+                    中文
+                  </Link>
+                  <Link
+                    to="/th"
+                    className="block py-2 px-4 text-gray-600 hover:text-[#0B1F33]"
+                    onClick={() => setLanguageMenuOpen(false)}
+                  >
+                    ไทย
+                  </Link>
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
@@ -140,14 +175,41 @@ export function Header() {
               Contact
             </Link>
             {/* Language Switch - Mobile */}
-            <Link
-              to={isChinese ? '/' : '/cn'}
-              className="flex items-center gap-2 py-2 text-[#C8A96A] hover:text-[#0B1F33]"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              <Globe className="w-4 h-4" />
-              <span>{isChinese ? 'Switch to English' : '中文'}</span>
-            </Link>
+            <div className="relative">
+              <button
+                className="flex items-center gap-2 py-2 text-[#C8A96A] hover:text-[#0B1F33]"
+                onClick={() => setLanguageMenuOpen(!languageMenuOpen)}
+              >
+                <Globe className="w-4 h-4" />
+                <span>{getCurrentLanguage()}</span>
+                <ChevronDown className="w-4 h-4" />
+              </button>
+              {languageMenuOpen && (
+                <div className="absolute right-0 mt-2 w-40 bg-white border border-gray-200 shadow-lg z-10">
+                  <Link
+                    to="/"
+                    className="block py-2 px-4 text-gray-600 hover:text-[#0B1F33]"
+                    onClick={() => setLanguageMenuOpen(false)}
+                  >
+                    English
+                  </Link>
+                  <Link
+                    to="/cn"
+                    className="block py-2 px-4 text-gray-600 hover:text-[#0B1F33]"
+                    onClick={() => setLanguageMenuOpen(false)}
+                  >
+                    中文
+                  </Link>
+                  <Link
+                    to="/th"
+                    className="block py-2 px-4 text-gray-600 hover:text-[#0B1F33]"
+                    onClick={() => setLanguageMenuOpen(false)}
+                  >
+                    ไทย
+                  </Link>
+                </div>
+              )}
+            </div>
           </div>
         )}
       </nav>

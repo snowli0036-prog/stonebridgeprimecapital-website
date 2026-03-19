@@ -27,7 +27,7 @@ export function HomePage() {
                 Cross-Border Capital Advisory
               </p>
               <p className="text-xl text-gray-300 mt-4">
-                Australia <span className="text-[#C8A96A]">•</span> Hong Kong <span className="text-[#C8A96A]">•</span> Asia-Pacific
+                Australia <span className="text-[#C8A96A]">•</span> Hong Kong <span className="text-[#C8A96A]">•</span> Thailand <span className="text-[#C8A96A]">•</span> Greater China <span className="text-[#C8A96A]">•</span> Asia-Pacific
               </p>
             </div>
             <p className="text-lg text-gray-300 leading-relaxed mb-14 max-w-2xl">
@@ -240,7 +240,7 @@ export function HomePage() {
               Geographic Focus
             </h2>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12">
             <div className="text-center">
               <div className="text-8xl text-[#C8A96A] mb-6">•</div>
               <h3 style={{ fontFamily: 'var(--font-display)' }} className="text-2xl text-[#0B1F33]">Australia</h3>
@@ -248,6 +248,10 @@ export function HomePage() {
             <div className="text-center">
               <div className="text-8xl text-[#C8A96A] mb-6">•</div>
               <h3 style={{ fontFamily: 'var(--font-display)' }} className="text-2xl text-[#0B1F33]">Hong Kong</h3>
+            </div>
+            <div className="text-center">
+              <div className="text-8xl text-[#C8A96A] mb-6">•</div>
+              <h3 style={{ fontFamily: 'var(--font-display)' }} className="text-2xl text-[#0B1F33]">Thailand</h3>
             </div>
             <div className="text-center">
               <div className="text-8xl text-[#C8A96A] mb-6">•</div>
